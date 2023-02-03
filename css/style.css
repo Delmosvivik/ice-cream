@@ -4,6 +4,7 @@
 html,
 body {
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 .wrapper {
     min-height: 100%;
@@ -31,7 +32,6 @@ h6 {
     margin: 0 auto;
 }
 .hero {
-    background: url(../img/content/hero-bg.png) no-repeat center/cover;
     background-color: rgba(242, 206, 218, 1);
     height: 100vh;
 }
@@ -69,16 +69,62 @@ color: #150101;
     color: white;
     border-radius: 5px;
 }
-.hero__content {
+.content {
+    display: flex;
+    align-items: center;
 }
-.hero__info {
+.content__text {
 }
-.hero__headline {
+.content__headline {
     
 }
 .title {
+    font-family: 'Hind Madurai', sans-serif;
 }
-.hero__title {
+.comtent__title {
 }
-.hero__desc {
+.content__desc {
+    width: 50%;
+}
+.content__img {
+width: 597px;
+height: 597px;
+top: 126px;
+left: 889px;
+}
+.content__decor {
+    width: 50%;
+    position: relative;
+}
+.content__decor::after {
+content: "";
+width: 365px;
+height: 353px;
+display: block;
+background: rgba(210, 49, 102, 0.1);
+position: absolute;
+border-radius: 50%;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+.content__decor::before {
+content: "";
+z-index: 10;
+background-image: url(../img/content/брызги.png);
+display: block;
+position: absolute;
+width: 100%;
+height: 70%;
+background-size: contain;
+background-repeat: no-repeat;
+bottom: 0;
+
+}
+.title__element {
+    color: #D23166;
+}
+.logo__pic{
+    width: 79px;
+    height: 79px;
 }
