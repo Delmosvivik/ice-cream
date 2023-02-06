@@ -68,20 +68,23 @@ color: #150101;
     background-color: #D23166;
     color: white;
     border-radius: 5px;
+    border-style: none;
 }
 .content {
     display: flex;
     align-items: center;
 }
 .content__text {
+    margin-bottom: 50px;
 }
 .content__headline {
-    
+    margin-bottom: 6px;
 }
 .title {
     font-family: 'Hind Madurai', sans-serif;
 }
-.comtent__title {
+.content__title {
+    margin-bottom: 35px;
 }
 .content__desc {
     width: 50%;
@@ -127,4 +130,21 @@ bottom: 0;
 .logo__pic{
     width: 79px;
     height: 79px;
+}
+.ice__item {
+display: flex;
+justify-content: space-between;
+}
+.cream {
+}
+.cream__img-wrap {
+}
+.ice__img {
+}
+.cream__desc {
+}
+.cream__title {
+}
+.cream__text {
+
 }
