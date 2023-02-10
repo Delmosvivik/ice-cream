@@ -131,19 +131,39 @@ bottom: 0;
     width: 79px;
     height: 79px;
 }
+.ice__list{
+    display: flex;
+    justify-content: space-between;
+}
 .ice__item {
-display: flex;
-justify-content: space-between;
+    width: 23%;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #FFFFFF;;
 }
 .cream {
+    width: 200px;
+    height: 250px;
 }
 .cream__img-wrap {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 172px;
 }
 .ice__img {
+    
+    object-fit: cover;
 }
 .cream__desc {
+    padding: 30px;
+    text-align: center;
 }
 .cream__title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+margin-bottom: 13px;
 }
 .cream__text {
 
