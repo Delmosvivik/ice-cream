@@ -238,6 +238,7 @@ margin-bottom: 35px;
     object-position: top center;
 }
 .review__user {
+    margin-bottom: 50px;
 }
 .review__username {
 }
@@ -247,6 +248,7 @@ margin-bottom: 35px;
     max-width: 345px;
     padding-left:23px ;
     position: relative;
+    margin-bottom: 56px;
 }
 .review__text::before {
     content: '';
@@ -322,4 +324,110 @@ margin-bottom: 35px;
     border: 2px solid #D64374;
     width: 58px;
     height: 58px;
+}
+.product {}
+
+.product__content {}
+
+.second__title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    text-align: center;
+    margin-top: 133px;
+    margin-bottom: 80px;
+}
+
+.header-product {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.product__list {
+    display: flex;
+
+}
+
+.product__item {
+    margin-right: 41px;
+}
+
+.product__item:first-child {
+    margin-left: 125px;
+}
+
+.product__item:last-child {
+    margin-right: 0;
+}
+
+.product__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.product__info {}
+
+.product__list-food {}
+
+.product__item-food {
+    display: flex;
+    padding-bottom: 120px;
+}
+.product__item-food:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.product__img-wrap {}
+
+.product__img {}
+
+.product__desc {
+    max-width: 454px;
+}
+
+.product__title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.product__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.price {}
+
+.price__new {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.price__old {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.7);
 }
