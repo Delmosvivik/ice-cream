@@ -87,7 +87,10 @@ color: #150101;
     margin-bottom: 6px;
 }
 .title {
-    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 400;
+font-size: 57.33px;
+line-height: 120.5%;
+    font-family: 'Fredoka One';
 }
 .content__title {
     margin-bottom: 35px;
